@@ -19,7 +19,7 @@ class InputPage extends StatefulWidget {
   State<InputPage> createState() => _InputPageState();
 }
 
-enum Gender {male, female }
+enum Gender { male, female }
 
 Color maleColor = inactiveColor;
 Color femaleColor = inactiveColor;

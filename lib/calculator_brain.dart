@@ -10,7 +10,7 @@ class CalculatorBrain {
   // ignore: non_constant_identifier_names
   String CalculateBMI() {
     // ignore: no_leading_underscores_for_local_identifiers
-    double _bmi = weight / pow(height/100, 2);
+     _bmi = weight / pow(height / 100, 2);
     return _bmi.toStringAsFixed(1);
   }
 
